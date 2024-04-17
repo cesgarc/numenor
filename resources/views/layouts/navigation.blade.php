@@ -8,8 +8,8 @@
 
                 <!-- Logo -->
                 <a href="{{ url ('/dashboard') }}" class="navbar-brand">
-                    <div><img alt="LAGOM" src="{{ asset('assets/images/main-navbar-logo.png') }}"></div>
-                    LAGOM
+                    <div><img alt="NUMENOR" src="{{ asset('assets/images/main-navbar-logo.png') }}"></div>
+                    NUMENOR
                 </a>
 
                 <!-- Main navbar toggle -->
@@ -24,7 +24,7 @@
                             <a href="{{ url ('/dashboard') }}">Home</a>
                         </li>
                         <li>
-                            <img alt="LAGOM" src="{{ asset('assets/images/logo.png') }}" width="110" height="38">
+                            <img alt="NUMENOR" src="{{ asset('assets/images/logo.png') }}" width="110" height="38">
                         </li>
 
                     </ul> <!-- / .navbar-nav -->
@@ -34,7 +34,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown">
                                     <img src="{{ asset('assets/images/user.png') }}" alt="">
-                                    <span>MONIK</span>
+                                    <span>Carlos</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{ route('logout') }}"><i class="dropdown-icon fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>

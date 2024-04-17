@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ config('app.name', 'LAGOM') }}</title>
+    <title>{{ config('app.name', 'NUMENOR') }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
     <!-- Open Sans font from Google CDN -->
@@ -43,7 +43,7 @@
         <div id="main-menu-inner">
             <div class="menu-content top" id="menu-content-demo">
                 <div>
-                    <div class="text-bg"><span class="text-slim">Hola,</span> <span class="text-semibold">Diana Cat</span></div>
+                    <div class="text-bg"><span class="text-slim">Hola,</span> <span class="text-semibold">Carlos Mor.</span></div>
 
                     <img src="{{ asset('assets/images/user.png') }}" alt="" class="">
                     <div class="btn-group">
