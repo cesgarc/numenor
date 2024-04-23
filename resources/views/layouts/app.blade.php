@@ -54,10 +54,10 @@
             </div>
             <ul class="navigation">
                 <li>
-                    <a href="{{ url('listaclientes') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Clientes</span></a>
+                    <a href="{{ url('listaagencias') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Agencias</span></a>
                 </li>
                 <li>
-                    <a href="{{ url('listaCodigos') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Códigos</span></a>
+                    <a href="{{ url('listahoteles') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Hoteles</span></a>
                 </li>
                 <li>
                     <a href="{{ url('listaPagos') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Pagos</span></a>
