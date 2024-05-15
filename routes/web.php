@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AgenciaController;
+use App\Http\Controllers\HotelController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,12 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/listaagencias', [AgenciaController::class, 'listarAgencias'])->middleware(['auth', 'verified'])->name('Agencias');
+
+//Hoteles
+Route::get('/listahoteles', [HotelController::class, 'listarHoteles'])->middleware(['auth', 'verified'])->name('Hoteles');
+Route::get('/listaniveles', [HotelController::class, 'listarNiveles'])->middleware(['auth', 'verified'])->name('Niveles');
+Route::get('/crearhotel', [HotelController::class, 'crearHotel'])->middleware(['auth', 'verified'])->name('Crear Hotel');
+Route::get('/verhotel', [HotelController::class, 'verHotel'])->middleware(['auth', 'verified'])->name('Ver Hotel');
 
 
 Route::middleware('auth')->group(function () {

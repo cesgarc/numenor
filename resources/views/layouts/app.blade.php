@@ -31,7 +31,7 @@
 </head>
 
 
-<body class="theme-default main-menu-animated">
+<body class="theme-default main-menu-animated  page-profile">
 
 <script>var init = [];</script>
 
@@ -59,6 +59,17 @@
                 <li>
                     <a href="{{ url('listahoteles') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Hoteles</span></a>
                 </li>
+                <li class="mm-dropdown">
+					<a href="{{ url('listahoteles') }}"><i class="menu-icon fa fa-th"></i><span class="mm-text">Hoteles</span></a>
+					<ul>
+						<li>
+							<a tabindex="-1" href="{{ url('listahoteles') }}"><span class="mm-text">Lista</span></a>
+						</li>
+						<li>
+							<a tabindex="-1" href="{{ url('listaniveles') }}"><i class="menu-icon fa fa-th-list"></i><span class="mm-text">Niveles</span></a>
+						</li>
+					</ul>
+				</li>
                 <li>
                     <a href="{{ url('listaPagos') }}"><i class="menu-icon fa fa-dribbble"></i><span class="mm-text">Pagos</span></a>
                 </li>
